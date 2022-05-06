@@ -58,9 +58,6 @@ function writeBhaskara(arr) {
 		let bhaskaraFunction = doBhaskara(arr[0], arr[1], arr[2]);
 		let bhaskaraResult = "x' = "+bhaskaraFunction[0]+' x" = '+bhaskaraFunction[1];
 		document.getElementById('bhaskaraResult').innerHTML = bhaskaraResult;
-		arr[0]='a';
-		arr[1]='b';
-		arr[2]='c';
 		console.log(arr)
 	}
 	else {
